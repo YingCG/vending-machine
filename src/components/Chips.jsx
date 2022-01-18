@@ -5,12 +5,6 @@ function Chips() {
   const [eatenChipsCount, setEatenChipsCount] = useState(0)
   const [chipsBagsCount, setChipsBagsCount] = useState(1)
 
-  const [chips, setChips] = useState({
-    src: './images/duckchips.jpg',
-    height: '300px',
-    width: 'auto'
-  })
-
   function handleChips(){
     setChipsBagsCount(chipsBagsCount + 1)
   }
