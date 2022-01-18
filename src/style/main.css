@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App-logo{
+  width: 60px;
+  height: auto;
+  margin: 20px;
+}
+
+.VendingMachine{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.VendingMachine img{
+  height: 700px;
+}
+
+h2{
+  margin-block-end: 0px;
+}
+
+.nav-bar a.active-link{
+  color: yellow;
+}
+
+.nav-bar {
+ background-color: cornflowerblue;
+ width: 100%;
+ padding: 1.5rem;
+ display: flex;
+ justify-content: space-around;
+}
+
+.nav-bar a {
+  color: white;
+  text-align: none;
+}
